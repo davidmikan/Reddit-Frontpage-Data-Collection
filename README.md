@@ -10,6 +10,6 @@ Das Skript [ggplotter.py](https://github.com/itsMik4n/Reddit-Frontpage-Data-Coll
 
 Der [plots](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/tree/main/plotter/plots)-Ordner enthält sowohl alle in der Arbeit verwendeten, als auch experimentelle andere Visualisierungen der Daten. Ausschließlich jene, die in der Arbeit vorkommen, sind jedoch als vollständig zu betrachten.
 
-[fonts](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/tree/main/fonts) enthält die in Fließtext und Visualisierungn der Arbeit verwendete Schriftart Atkinson Hyperlegible, sie ist kostenlos unter einer Lizenz verfügbar, die die Verwendung, weitere Verbreitung, Modifikation und kommerzielle Verwendung erlaubt (die genaue Lizenz ist [hier](https://www.brailleinstitute.org/wp-content/uploads/2020/11/Atkinson-Hyperlegible-Font-License-2020-1104.pdf) abrufbar).
+[fonts](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/tree/main/fonts) enthält die in Fließtext und Visualisierungen der Arbeit verwendete Schriftart Atkinson Hyperlegible, sie ist kostenlos unter einer Lizenz verfügbar, die die Verwendung, weitere Verbreitung, Modifikation und kommerzielle Verwendung erlaubt (die genaue Lizenz ist [hier](https://www.brailleinstitute.org/wp-content/uploads/2020/11/Atkinson-Hyperlegible-Font-License-2020-1104.pdf) abrufbar).
 
 Alle Versuche, die in der Arbeit als Beweise aufgeführt werden, sind in [tests](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/tree/main/tests) zu finden.
