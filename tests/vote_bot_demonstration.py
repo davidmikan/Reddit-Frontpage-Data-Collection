@@ -8,11 +8,11 @@ bot = praw.Reddit(
     # Wie man sich API-Zugang verschafft, wird in
     # https://praw.readthedocs.io/en/latest/getting_started/quick_start.html demonstriert
     # (zugegriffen am 22.2.2021)
-    client_id = 'fq6kMlomEQzbHg',
-    client_secret = 'aNNIqiCatMq2NG4eJ2RZhVkTdQAcHg',
-    password = 'DvD13103',
-    username = 'itsm1kan',
-    user_agent = 'itsm1kan testing some cool stuff'
+    client_id = '###',
+    client_secret = '###',
+    password = '###',
+    username = '###',
+    user_agent = '###'
 )
 sub = bot.subreddit('memes')
 disliked_keywords = [
