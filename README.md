@@ -2,7 +2,7 @@
 
 Sämtliche Skripts, die bei der Datenerhebung verwendet wurden, sind im Ordner [scraper](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/tree/main/scraper). Hierbei enthält [pg.py](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/blob/main/scraper/pg.py) die PostGroup Klasse, welche zur Interaktion mit der Reddit API [praw](https://praw.readthedocs.io/en/latest/#) und zum Abspeichern der Daten eingesetzt wurde.
 
-Der Ordner [raw_data](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/tree/main/raw_data) enthält jegliche verwendeten JSON-Dateien mit den Rohdaten im Originalzustand.
+Der Ordner [raw_data](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/tree/main/raw_data) enthält jegliche generierten JSON-Dateien mit den Rohdaten im Originalzustand.
 
 Im Ordner [dataset](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/tree/main/dataset) befindet sich datapoints_complete.csv, dies sind die Datenpunkte, die für die Auswertung meiner vorwissenschaftlichen Arbeit verwendet wurden. Sie wurden in dem Subreddit r/memes erhoben, der Datensatz ist 94949 Reihen lang und enthält Datenpunkte gehörig zu 6330 Posts.
 
