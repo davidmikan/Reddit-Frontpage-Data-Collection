@@ -1,5 +1,8 @@
 import praw
 
+# Achtung: Dieses Skript dient nur edukativen Zwecken. Vote Manipulation durch Bots
+# ist auf Reddit verboten und wird, falls nachgewiesen, mit (Shadow-)Bans bestraft.
+
 bot = praw.Reddit( 
     # Die Anmeldedaten sind mit jenen des jeweiligen Accounts auszufüllen.
     # Wie man sich API-Zugang verschafft, wird in
