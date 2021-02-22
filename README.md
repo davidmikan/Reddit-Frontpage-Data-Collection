@@ -4,7 +4,7 @@ Sämtliche Skripts, die bei der Datenerhebung verwendet wurden, sind im Ordner [
 
 Der Ordner [raw_data](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/tree/main/raw_data) enthält jegliche verwendeten JSON-Dateien mit den Rohdaten im Originalzustand.
 
-Im Ordner [dataset](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/tree/main/dataset) befindet sich datapoints_complete.csv, dies sind die Datenpunkte, die für die Auswertung meiner vorwissenschaftlichen Arbeit verwendet wurden. Sie wurden in dem Subreddit r/memes erhoben, der Datensatz ist 94949 Reihen lang und enthält Datenpunkte gehörig zu 6330 Posts
+Im Ordner [dataset](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/tree/main/dataset) befindet sich datapoints_complete.csv, dies sind die Datenpunkte, die für die Auswertung meiner vorwissenschaftlichen Arbeit verwendet wurden. Sie wurden in dem Subreddit r/memes erhoben, der Datensatz ist 94949 Reihen lang und enthält Datenpunkte gehörig zu 6330 Posts.
 
 Das Skript [ggplotter.py](https://github.com/itsMik4n/Reddit-Frontpage-Data-Collection/blob/main/plotter/ggplotter.py) wurde für alle Visualisierungen benutzt. Es verwendet die Library [plotnine](https://plotnine.readthedocs.io/en/stable/) zum Rendern der Plots, welche auf matplotlib basiert und ein Port der Library ggplot2 für die Programmiersprache R ist.
 
