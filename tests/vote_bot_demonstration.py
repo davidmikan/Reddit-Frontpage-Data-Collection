@@ -14,7 +14,7 @@ bot = praw.Reddit(
     username = '###',
     user_agent = '###'
 )
-sub = bot.subreddit('memes')
+target = bot.subreddit('memes')
 disliked_keywords = [
     # Eine Liste mit Schlüsselwörtern, die nicht erwünscht sind,
     # diese wird der Bot mit Downvotes versehen
@@ -31,12 +31,12 @@ liked_keywords = [
     'meow'
 ]
 
-for post in sub.stream.submissions():
+for post in target.stream.submissions():
     # Der Stream agiert als Endlosschleife: jeder neu erstellte Post 
     # läuft durch durch eine Iteration und sein Titel wird sodann mit
     # den Schlüsselwörtern abgeglichen, und die passende Handlung durchgeführt
     name = post.name.lower()
-    if any(kw in name for kw in disliked_keywords):
+    if any(k in name for k in disliked_keywords):
         post.downvote()
-    elif any(kw in name for kw in liked_keywords):
+    elif any(k in name for k in liked_keywords):
         post.upvote()
