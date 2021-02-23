@@ -1,7 +1,7 @@
 import plotnine as p9
 import pandas as pd
 import matplotlib.font_manager as fm
-from config import *
+# from config import *
 
 font = fm.FontProperties(fname='fonts/atkinson.ttf')
 PLOT_NAME = 'time0-40_score_convex_all_final'
@@ -9,7 +9,7 @@ PLOT_NAME = 'time0-40_score_convex_all_final'
 # dead = pd.read_csv('sub_scraper/datasets/datapoints_dead.csv')
 # rising = pd.read_csv('sub_scraper/datasets/datapoints_rising.csv')
 # hot = pd.read_csv('sub_scraper/datasets/datapoints_hot.csv')
-complete_set = pd.read_csv('sub_scraper/datasets/datapoints_complete.csv')
+complete_set = pd.read_csv('dataset/datapoints_complete.csv')
 complete_set['State'] = complete_set['State'].astype('category').cat.reorder_categories(['dead', 'rising', 'hot'])
 
 col = ['dead' if (not r and not h) else 'hot' if h else 'rising' for r, h in zip(complete_set['Rising'], complete_set['Hot'])]
@@ -17,6 +17,7 @@ complete_set['Color'] = col
 complete_set['Color'] = complete_set['Color'].astype('category').cat.reorder_categories(['dead', 'rising', 'hot'])
 # complete_set['Timeframes'] = pd.cut(complete_set['Score'], bins=[0, 200, 400, 600, 800, 1000, 20000])
 # complete_set['Timeframes'] = complete_set['Timeframes'].astype('string')
+
 
 plot = (p9.ggplot(data=complete_set.sample(10000),
            mapping=p9.aes(x='State', y='Color', color='State'))
